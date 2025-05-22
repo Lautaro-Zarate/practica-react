@@ -26,7 +26,7 @@ function App() {
       //     <ComponentPattern nombre="Eugenia" edad={50} direccion="Cerrillos">
       //       <button>Llamar</button>
       //     </ComponentPattern> */}
-      // <CompUseRef/>
+      <CompUseRef/>
     </div>
     )
   }
