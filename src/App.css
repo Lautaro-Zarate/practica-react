@@ -43,3 +43,9 @@
 .datos-card:hover{
     transform: scale(1.2);
 }
+.card-axios{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #76a4cd;
+}

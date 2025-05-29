@@ -1,10 +1,11 @@
 import './App.css'
+import CompConAxios from './components/CompConAxios'
 // import ComponentPattern from './components/ComponentPattern'
 // import { ComponenteCustomHooks } from './components/ComponenteCustomHooks'
 // import { CompUseStateYUseEffect } from './components/CompUseStateYUseEffect'
 // import ComponenteHijo from './components/ComponenteHijo';
 // import { UserContext } from './context/UserContext'
-import CompUseRef from './components/CompUseRef'
+// import CompUseRef from './components/CompUseRef'
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
       //     <ComponentPattern nombre="Eugenia" edad={50} direccion="Cerrillos">
       //       <button>Llamar</button>
       //     </ComponentPattern> */}
-      <CompUseRef/>
+      {/* <CompUseRef/> */}
+      <CompConAxios/>
     </div>
     )
   }
