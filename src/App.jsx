@@ -1,6 +1,7 @@
 import './App.css'
 import Counter from './features/counter/Counter'
 import User from './features/user/User'
+import Ejemplo from './components/Ejemplo'
 // import CompConAxios from './components/CompConAxios'
 // import ComponentPattern from './components/ComponentPattern'
 // import { ComponenteCustomHooks } from './components/ComponenteCustomHooks'
@@ -12,8 +13,10 @@ import User from './features/user/User'
 function App() {
   return(
     <div>
-      <Counter/>
-      <User/>
+  <Ejemplo>
+  <h2>Hola devs</h2>
+  <p>Ejemplo con composición</p>
+</Ejemplo>
     </div>
   )
 }
